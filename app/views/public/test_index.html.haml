@@ -1,0 +1,27 @@
+.container#welcome
+  .row
+    %nav.navbar.navbar-default#public-navbar
+      .container-fluid
+        .navbar-header
+          %button{type: 'button', class: 'navbar-toggle collapsed', data: {toggle: 'collapse', target: '#navbar-coll'}}
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          .navbar-brand MotoNet
+
+        .collapse.navbar-collapse#navbar-coll.navbar-right
+          %ul.nav.navbar-nav
+            %li.r-space
+              = link_to 'Головна', '#'
+            %li.r-space
+              = link_to 'Призначення', '#'
+            %li
+              = link_to 'Створити Компанію', '#'
+
+  .row.description-container.text-center
+    %h1 Cover your page.
+    %p Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
+    %p= link_to 'Знайти Деталь', '#', class: 'btn btn-lg btn-default'
+
+.footer
+  %p Якщо ви маєте якісь зауваження або знайшли недоліки пишіть будь-ласка на пошту evrybiont@gmail.com
